@@ -47,3 +47,51 @@ We’ve released software for farming LayerEdge:
 - - [NodePay](https://github.com/CRYPTO-HER/nodepay-bot)
 
 Invite your friends and colleagues to join! 🚀
+
+
+# How to use? Documentation
+### Installation
+**Software will automatically install in: C:\Program Files (x86)\LayerEdge_private_v1.6**
+
+**You cannot change the location directory of the software**
+
+### Working with a database
+* To work with the `database.db` file, you need to install the latest version of the DB Browser program. 
+* You can download it here: https://sqlitebrowser.org/dl/
+
+### Adding Proofs
+* In the `Data` folder, open `proofs.txt` file.
+* Add random variations of words in this format: {word1|word2|word3}
+* Ensure the number of proof words in `proofs.txt` matches the number of accounts in the `accounts.txt` file.
+* **All proof words must be unique.**
+
+### Adding Proxies
+* In the `Data` folder, open the `proxy.txt` file.
+* Add proxies in this format: `login:pass@ip:port`.
+
+### Adding Referral Codes
+* In the `Data` folder, open `referalCodes.txt` file.
+* Add referral codes, one per line.
+
+### Linking Twitter accounts
+* In the `Data` folder, open the `twitter.txt` file.
+* Add Twitter auth_token, one per line. Each token corresponds to one Twitter account.
+* Ensure the number of Twitter tokens in `twitter.txt` matches the number of accounts in `accounts.txt`.
+* Successfully linked accounts will be saved in `twitter_goods.txt`.
+* Accounts with errors during the linking process will be logged in `twitter_bads.txt`.
+* **In 99% of cases, errors occur due to invalid Twitter tokens.**
+
+### Account Registration
+* Use option **Registration** to register new accounts.
+* Failed registrations will be saved in the `reg_bads.txt` file.
+
+### Preparing Accounts for Farming
+* Use option **Save accounts to file** to save all existing accounts in `accounts.txt`.
+* Ensure `proxy.txt` contains proxies in the required format.
+* Start the farming process.
+
+### Collecting statistics
+* The **Collect statistics** module collects and analyzes account activity data, saving it in the `statistics_goods.txt` file.
+
+### Saving accounts to file
+* The **Save accounts to file** module saves all existing accounts in the `accounts.txt` file.
