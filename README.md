@@ -87,3 +87,11 @@ Invite your friends and colleagues to join! 🚀
 
 ### Saving accounts to file
 * The **Save accounts to file** module saves all existing accounts in the `accounts.txt` file.
+
+# 🔗 Contacts
+- 📩 Telegram chat: https://t.me/+C_3h-RZe55xjZTli
+- 📩 Telegram channel: https://t.me/CRYPT0_HER
+- 📩 Developer: https://t.me/CRYPT0HER
+
+# Residential Proxy $1.5/GB
+- 📩 Telegram Bot: [https://t.me/CRYPT0HER_proxysBot](http://t.me/CRYPT0HER_proxysBot?start=301567601)
