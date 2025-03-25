@@ -61,13 +61,12 @@ Invite your friends and colleagues to join! 🚀
 
 ### Adding Proofs
 * In the `Data` folder, open `proofs.txt` file.
-* Add random variations of words in this format: {word1|word2|word3}
-* Ensure the number of proof words in `proofs.txt` matches the number of accounts in the `accounts.txt` file.
-* **All proof words must be unique.**
+* Add random variations of words, one per line. Software will use random line from the file for every proof.
+* You can use SpinTax for any line: {word1|word2|word3}
 
 ### Adding Proxies
 * In the `Data` folder, open the `proxy.txt` file.
-* Add proxies in this format: `login:pass@ip:port`.
+* Add proxies in this format: `login:pass@ip:port` , one per line.
 
 ### Adding Referral Codes
 * In the `Data` folder, open `referalCodes.txt` file.
@@ -76,17 +75,14 @@ Invite your friends and colleagues to join! 🚀
 ### Linking Twitter accounts
 * In the `Data` folder, open the `twitter.txt` file.
 * Add Twitter auth_token, one per line. Each token corresponds to one Twitter account.
-* Ensure the number of Twitter tokens in `twitter.txt` matches the number of accounts in `accounts.txt`.
-* Successfully linked accounts will be saved in `twitter_goods.txt`.
 * Accounts with errors during the linking process will be logged in `twitter_bads.txt`.
 * **In 99% of cases, errors occur due to invalid Twitter tokens.**
 
 ### Account Registration
 * Use option **Registration** to register new accounts.
-* Failed registrations will be saved in the `reg_bads.txt` file.
+* Software will create wallets for you.
 
-### Preparing Accounts for Farming
-* Use option **Save accounts to file** to save all existing accounts in `accounts.txt`.
+### Farming
 * Ensure `proxy.txt` contains proxies in the required format.
 * Start the farming process.
 
