@@ -55,10 +55,6 @@ Invite your friends and colleagues to join! 🚀
 
 **You cannot change the location directory of the software**
 
-### Working with a database
-* To work with the `database.db` file, you need to install the latest version of the DB Browser program. 
-* You can download it here: https://sqlitebrowser.org/dl/
-
 ### Adding Proofs
 * In the `Data` folder, open `proofs.txt` file.
 * Add random variations of words, one per line. Software will use random line from the file for every proof.
